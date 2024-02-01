@@ -324,22 +324,6 @@ h1{
     text-decoration: none;
     color: white;
 }
-.spbox1{
-    position: absolute;
-    display: none;
-    margin-left: 35%;
-}
-.spbox1 a{
-    display: block;
-    text-decoration: none;
-    color: white;
-}
-.box1:hover .spbox1{
-    display: block;
-}
-.spbox1 a:hover{
-    background-color: rgb(234, 140, 146);
-}
 .bt2{
     display: flex;
     gap: 15%;

@@ -3,7 +3,7 @@ var curimg=0;
 function Load_image(){
     for(i=1;i<4;i++){
         img[i]=new Image();
-        img[i].src="/img/khanh"+i+".jpg";
+        img[i].src="/anh_index/khanh"+i+".jpg";
     }
 }
 function next(){
