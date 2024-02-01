@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spwes.css">
+    <script src="https://kit.fontawesome.com/7dc508f75f.js" crossorigin="anonymous"></script>
+    <script src="html/app.js"></script>
+    <script src="html/contac.js"></script>
+    <script src="html/new.js"></script>
+    <script src="bar.js"></script>
+    <link rel="stylesheet" href="contac.css">
+    <link rel="stylesheet" href="tex2.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="top my-0">
+            <ul class="menu_1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="homeword.html">Homework</a></li>
+                <li><a href="contac.html">Contact</a></li>
+            </ul>
+            <div class="inputBox_container">
+                <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" alt="search icon">
+                    <path
+                        d="M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z">
+                    </path>
+                </svg>
+                <input class="inputBox" id="inputBox" type="text" placeholder="Search For Products">
+            </div>
+        </nav>
+        <div class="bar">
+            <div class="hop-menu" onclick="myD()" style="width: 20px;">
+                <a><i class="hop_bar fa-solid fa-bars"></i></a>
+            </div>
+            <div class="bd6" id="menu">
+                <div onclick="myX()" style="width: 20px;">
+                    <i class="fa fa-times" aria-hidden="true" style="color: rgb(167, 14, 14); font-size: 30px; cursor: pointer;"></i>
+                </div>
+            
+                <div class="bd61">
+                    <a class="portfolio" href="index.html" >Home</a>
+                    <a href="about.html">About</a>
+                    <a href="homeword.html">Homework</a>
+                    <a href="contac.html">Contact</a>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img class="anh1" src="img/3C2..TRT09584.jpg" alt="Image 1">
+            </div>
+        
+            <div class="mySlides">
+                <img class="anh1" src="img/3C2..TRT09648.jpg" alt="Image 2">
+            </div>
+            <div class="mySlides">
+                <img class="anh1" src="img/3C2..TRT09651.jpg" alt="Image 2">
+            </div>
+            <div class="mySlides">
+                <img class="anh1" src="img/3C2..TRT09649.jpg" alt="Image 2">
+            </div>
+            <script src="html/script.js"></script>
+        </div>
+    <section>
+        <div class="baoAbout">
+            <div class="bao">
+                <p>About</p>
+            </div>
+            <div class="about">
+                <div class="menu2">
+                    <div class="chua">
+                        <img src="/img/khanh1.jpg" id="khanh" style="width: 250px;">
+                        <!-- <div class="nut"> -->
+                        <button class="back" id="back" onclick="back();">&#10094;</button>
+                        <button class="next" id="next" onclick="next();">&#10095;</button>
+                        <!-- </div> -->
+                    </div>
+                    <div class="loader"></div>
+                </div>
+                <div class="cm1">
+                    <p>Tôi là: <span class="cm1_1">Nguyễn Duy Khánh</span></p>
+                    <p> Mã Sinh Viên:222001462.</p>
+                    <p> Hiện đang là sinh viên năm II </p>
+                    <p> Khoa: KHoa học tự nhiên và xã hội.</p>
+                    <p> Học Tại:trường Đại học Thủ Đô Hà Nội.</p>
+                    <a class="tcom_m1" href="about.html">Xem Thêm...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="b_tin">
+        <div class="bao">
+            <p>News</p>
+        </div>
+        <div class="Tieu_D">
+            <p class="cm2">
+                Những chuyến đi cho ta những cảm giác mới lạ .<br>
+                <span>Hãy tận hưởng cộc sống theo cách của bạn.</span>
+            </p>
+        </div>
+        <div class="tin">
+            <div class="b_tin_1">
+                <div class="cm2_1">
+                    <p>N/T/N: 29/11/2023</p>
+                </div>
+                <div class="lop_bo">
+                    <img class="lop1" src="/img/khanh1.jpg ">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>socs son</p>
+                </div>
+                <div class="btum">
+                    <button class="bt_tum" onclick="showAdditionalInfo()">Xem Thêm</button>
+                </div>
+        
+                <div id="additionalInfo" class="hidden">
+                    <div id="infoDetails"></div>
+                    <button class="bt_tum" onclick="hideAdditionalInfo()">Đóng</button>
+                </div>
+            </div>
+            <div class="b_tin_1">
+                <div class="cm2_1">
+                    <p>N/T/N: 29/11/2023</p>
+                </div>
+                <div class="lop_bo">
+                    <img class="lop1" src="/img/khanh2.jpg">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>socs son</p>
+                </div>
+                <div class="btum">
+                    <button class="bt_tum" onclick="bt_tum_1()">Xem Thêm</button>
+                </div>
+        
+                <div id="bt_sp" class="hidden">
+                    <div id="bt_tum_2_1"></div>
+                    <button class="bt_tum" onclick="bt_tum_2()">Đóng</button>
+                </div>
+            </div>
+            <div class="b_tin_1">
+                <div class="cm2_1">
+                    <p>N/T/N: 2/2/2023</p>
+                </div>
+                <div class="lop_bo">
+                    <img class="lop1" src="/img/khanh3.jpg ">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>socs son</p>
+                </div>
+                <div class="btum">
+                    <button class="bt_tum" onclick="bt_tum_3()">Xem Thêm</button>
+                </div>
+        
+                <div id="bt_sp1" class="hidden">
+                    <div id="bt_tum_3_1"></div>
+                    <button class="bt_tum" onclick="bt_tum_4()">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ///baa// -->
+    <!-- <div class="bao">
+        <p>Homework</p>
+    </div>
+    <div class="bao_bt">
+            <div class="bt">
+                <div class="bt_1">
+                        <img class="anh_box1" src="/img/IMG3.JPG">
+                        <div class="box1">
+                                 <a href="#" class="baitap">Bài Tập BUổi 1</a> 
+                            <div class="spbox1">
+                                <a href="home1,2.html">baitap1</a>
+                                <a href="home1.html">bai1</a>
+                                <a href="home2.html">bai2</a>
+                                <a href="home3.html">bai3</a>
+                                <a href="homeCV.html">baiCV</a>
+                            </div>
+                        </div> 
+                </div>
+                <div class="bt_1">
+                    <img class="anh_box1" src="/img/IMG2.jpeg">
+                    <div class="box1">
+                        <a href="#" class="baitap">Bài Tập BUổi 2</a>
+                        <div class="spbox1">
+                                <a href="baitap.html">bai1</a>
+                                <a href="baitapbuoi2.html">bai1.1</a>
+                                <a href="home4.html">bai2.1</a>
+                                <a href="home5.html">bai2.2</a>
+                                <a href="home6.html">bai4</a>
+                                <a href="home7.html">bai3</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="bt_1">
+                    <img class="anh_box1" src="img/anh1.jpg">
+                    <div class="box1">
+                        <a href="#" class="baitap">Bài Tập BUổi 3</a>
+                        <div class="spbox1">
+                            <a href="baiLAB3-bai3.1.html">bai1</a>
+                            <a href="baitapbuoi3.html">bai tesx</a>
+                            <a href="baomoi.html">báo mới</a>
+                            <a href="baitap1.html">bão mạng</a>
+                        </div>
+                    </div> 
+                </div>
+        </div>
+        <!-- <div></div> -->
+          <!-- <div class="bt2">
+            <div class="bt_1">
+                <img class="anh_box1" src="/img/IMG4.JPG">
+                <div class="box1">
+                    <a href="#" class="baitap">Bài Tập BUổi 4</a>
+                    <div class="spbox1">
+                        <a href="btbuoi4.html">bài 3</a>
+                        <a href="btbuoi4.1.html">bài 1</a>
+                        <a href="bait4-2.html">bài 4</a>
+                        <a href="bt5.html">bài 5</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="bt_1">
+                <img class="anh_box1" src="/img/IMG5.jpg">
+                <div class="box1">
+                    <a href="#" class="baitap">Bài Tập BUổi 5</a>
+                    <div class="spbox1">
+                        <a href="bait4-2.html">bài 4</a>
+                        <a href="bt5.html">bài 5</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="bt_1">
+                <img class="anh_box1" src="/img/IMG.JPG">
+                <div class="box1">
+                    <a href="#" class="baitap">Bài Tập BUổi 6</a>
+                    <div class="spbox1">
+                        <a href="b1.html">bài 1</a>
+                        <a href="chanle.html">bài 2</a>
+                        <a href="BT3.html">bài 3</a>
+                        <a href="bai5.html">bài 5</a>
+                    </div>
+                </div> 
+            </div>
+        </div>  
+        
+    </div> --> 
+    <div class="bao">
+        <p>Contact</p>
+    </div>
+                    <div class="bao_contact">
+                        <div class="contact">
+                                <section class="contact section" id="contact">
+                                  <h2 class="section-title">Contact</h2>
+                                  <div class="loader_1"></div>
+                                  <div class="contact__container bd-grid">
+                                      <form target="_blank" method="POST" class="contact__form" onsubmit="sendMail()">
+                                          <input type="text" name="name" id="name" required placeholder="Name" class="contact__input">
+                                          <input type="mail" name="email" id="email" required placeholder="Email" class="contact__input">
+                                          <textarea name="message" required id="message" placeholder="Your Message" cols="0" rows="10" class="contact__input"></textarea>
+                                          <input type="submit" onclick="sendMail()" value="Gửi" class="contact__button button">
+                                      </form>
+                                  </div>
+                                </section>  
+                        </div>
+                        <div class="lien_he">
+                            <div class="gmail">
+                                <h1>
+                                    <span>Khanhbuf</span>@gmai.com
+                                </h1>
+                            </div>
+                            <div class="SDT">
+                                <h1>0967350361</h1>
+                            </div>
+                            <div class="fb">
+                                <h1><span>KhanhNguyen</span><br>(nhắt con)</h1>
+                            </div>
+                            <div class="inta">
+                                <h1>Khanh_buf_24</h1>
+                            </div>
+                            <div class="icon_lh">
+                                <div class="icon_gmail">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="icon_dt">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="icon_fb">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                                <div class="icon_inta">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+
+.contact__container {
+  color: var(--text);
+}
+.contact{
+  width: 400px;
+  margin-top: 20px;
+}
+.loader_1 {
+  display: block;
+  --height-of-loader: 8px;
+  margin-top: 20px;
+  --loader-color: #0071e2;
+  width: 100px;
+  height: var(--height-of-loader);
+  border-radius: 30px;
+  background-color: rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.loader_1::before {
+  content: "";
+  position: absolute;
+  background: var(--loader-color);
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 30px;
+  animation: moving 1s ease-in-out infinite;
+  ;
+}
+.contact__input {
+   background-color: rgb(158, 161, 161);
+  margin: 5%;
+  width:300px;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+
+.contact__button {
+    background-color: rgb(144, 146, 146);
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 200%;
+  margin-right: 2%;
+  /* width: 20%; */
+  border-radius: 5%;
+}
+.contact__button button{
+  width: 5%;
+  height: 5%;
+}
+.lien_he{
+  margin-top: 5%;
+}
+.icon_lh{
+  display: flex;
+  font-size: 250%;
+  margin-left: 25%;
+  gap: 5%;
+}
+.icon_lh .icon_gmail:hover{
+  color: aqua;
+  transform: scale(1.2);
+  
+}
+.icon_lh .icon_dt:hover{
+  color: aqua;
+  transform: scale(1.2);
+}
+.icon_lh .icon_fb:hover{
+  color: aqua;
+  transform: scale(1.2);
+}
+.icon_lh .icon_inta:hover{
+  color: aqua;
+  transform: scale(1.2);
+}
