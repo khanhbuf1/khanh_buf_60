@@ -1,0 +1,15 @@
+
+  .anh_xm{
+    width: 70px;
+    height: 80px;
+    border-radius: 80%;
+  }
+  .chung_thuc{
+    display: flex;
+    gap: 20px;
+  }
+  .chung_thuc p{
+    text-align: center;
+  }
+  
+  

@@ -166,9 +166,28 @@ nav ul li a:hover {
     margin-top: 5%;
 
   }
+  .slideshow-container{
+    margin-left: 25%;
+  }
+  .anh_xm{
+    width: 70px;
+    height: 80px;
+    border-radius: 80%;
+  }
+  .chung_thuc{
+    display: flex;
+    gap: 20px;
+  }
+  .chung_thuc p{
+    text-align: center;
+  }
+  
  @media screen and (max-width:1300px){
   .cards{
     margin-left: 15%;
+  }
+  .slideshow-container{
+    margin-left: 20%;
   }
   
 }
@@ -190,6 +209,9 @@ nav ul li a:hover {
   }
   .khanh{
     margin-left: 30%;
+  }
+  .slideshow-container{
+    margin-left: 20%;
   }
   
 }
@@ -216,6 +238,9 @@ nav ul li a:hover {
 .inputBox{
     width: 100%;
 }
+.slideshow-container{
+  margin-left: 10%;
+}
 
 }
   
@@ -226,6 +251,9 @@ nav ul li a:hover {
   .khanh{
     margin-left: 30%;
   }
+  .slideshow-container{
+    margin-left: 10%;
+  }
   
   
 }
@@ -235,6 +263,9 @@ nav ul li a:hover {
   }
   .khanh{
     margin-left: 30%;
+  }
+  .slideshow-container{
+    margin-left: 5%;
   }
   
 }
@@ -259,6 +290,9 @@ nav ul li a:hover {
 .inputBox{
     width: 80%;
 }
+.slideshow-container{
+  margin-left: 3%;
+}
   
 }
 @media screen and (max-width:675px){
@@ -280,6 +314,9 @@ nav ul li a:hover {
 }
 .inputBox{
     width: 80%;
+}
+.slideshow-container{
+  margin-left: 2%;
 }
   
 }
@@ -375,6 +412,9 @@ nav ul li a:hover {
       position: fixed;
       z-index: 1;
      }  
+     .slideshow-container{
+      margin-left: 0;
+    }
   
 } 
 
