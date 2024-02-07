@@ -104,10 +104,6 @@ nav ul li a:hover {
     margin-top: 4%;
     /* display: none; */
 }
-.icon_anh{
-    position: absolute;
-    font-size: 40px;
-}
 .anh-1{
     position: absolute;
     width: 250px;
@@ -126,6 +122,7 @@ nav ul li a:hover {
     display: none;
     margin-top: 50%;
     margin-left: 25%;
+    font-size: 40px;
 }   
 .cm1-1{
     display: block;
@@ -307,9 +304,26 @@ nav ul li a:hover {
       margin-left: 25%;
     }
     .icon_anh{
-      display: none;
+      margin-left: 38%;
+      margin-top: 60%;
     }
   
+  }
+  @media screen and (max-width:1100px) {
+    .icon_anh{
+      margin-left: 38%;
+      margin-top: 80%;
+      width: 100%;
+    }
+    
+  }
+  @media screen and (max-width:1050px) {
+    .icon_anh{
+      margin-left: 45%;
+      margin-top: 80%;
+      width: 100%;
+    }
+    
   }
  
   @media screen and (max-width:950px) {
@@ -344,9 +358,16 @@ nav ul li a:hover {
       width: 70px;
     }
     .icon_anh{
-      display: none;
+      margin-left: 60%;
+      width: 100%;
     }
   
+  }
+  @media screen and (max-width:890px) {
+    .icon_anh{
+      opacity: 0;
+    }
+    
   }
 
  @media screen and (max-width:800px) {
@@ -367,9 +388,8 @@ nav ul li a:hover {
     width: 50px;
   }
   .icon_anh{
-    display: none;
+    opacity: 0;
   }
-
 } 
 @media screen and (max-width:730px) {
   .menu_1{
@@ -402,10 +422,6 @@ nav ul li a:hover {
   .bao-st{
     width: 50px;
   }
-  .icon_anh{
-    display: none;
-  }
-
 }
 @media screen and (max-width:675px) {
   
@@ -437,9 +453,7 @@ nav ul li a:hover {
   .bao-st{
     width: 50px;
   }
-  .icon_anh{
-    display: none;
-  }
+  
 
 }
 @media screen and (max-width:600px) {
@@ -473,9 +487,7 @@ nav ul li a:hover {
   .bao-st{
     width: 50px;
   }
-  .icon_anh{
-    display: none;
-  }
+ 
 
 }   
 @media screen and (max-width:550px) {
@@ -495,9 +507,7 @@ nav ul li a:hover {
   .bao-st{
     width: 30px;
   }
-  .icon_anh{
-    display: none;
-  }
+  
   .top{
     display: none;
   }
@@ -567,39 +577,3 @@ nav ul li a:hover {
     
 }
  
- /* @media screen and (max-width:950px){
-  .top{
-      width: 100%
-  }
-  .menu_1{
-      width: 100%;
-      font-size: 20px;
-  }
-  .menu_1 li{
-      margin: 0;
-  }
-  .inputBox_container{
-      width: 40%;
-  }
-  .inputBox{
-      width: 100%;
-  }
-
-}
-@media screen and (max-width:850px){
-  .menu_1{
-      width: 100%;
-      font-size: 15px;
-  }
-  .menu_1 li{
-      margin: 0;
-  }
-  .inputBox_container{
-      width: 50%;
-      height: 30%;
-  }
-  .inputBox{
-      width: 80%;
-  }
-
-} */

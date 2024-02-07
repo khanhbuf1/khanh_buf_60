@@ -1,7 +1,7 @@
 var img=[];
 var curimg=0;
 function Load_image(){
-    for(i=1;i<4;i++){
+    for(i=4;i<8;i++){
         img[i]=new Image();
         img[i].src="/anh_index/khanh"+i+".jpg";
     }
