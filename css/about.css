@@ -107,7 +107,7 @@ nav ul li a:hover {
 .anh-1{
     position: absolute;
     width: 250px;
-    border-radius: 80%;
+    border-radius: 0%;
 }
 .bao_anh_1:hover .icon_anh{
     display: block;

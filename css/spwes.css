@@ -128,6 +128,7 @@ h1{
 }
 .about{
     display: flex;
+    flex-wrap: wrap;
     padding: 5%;
     gap: 10%;
     background-color: white;
@@ -151,6 +152,9 @@ h1{
 }
 .back{
     left: -12px;
+}
+.cm1 p{
+    font-size: 30px;
 }
 .loader {
     display: block;
