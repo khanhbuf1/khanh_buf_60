@@ -160,6 +160,7 @@ nav ul li a:hover {
   transform: scale(1.5);
 }
 .hop_1_2{
+  padding: 20px;
     background-color: #909090;
     width: 100%;
     height: 200px;
